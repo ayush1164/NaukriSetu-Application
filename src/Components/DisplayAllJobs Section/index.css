@@ -1,0 +1,34 @@
+.display-jobs-cont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 2px solid rgb(58, 9, 0); */
+    list-style: none;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    background-color: #e6e6e6;
+}
+
+.logo-title-rating-cont{
+    display: flex;
+    gap: 12px;
+}
+
+.location-emptype-salary-cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-route{
+    color: black;
+    text-decoration: none;
+}
+
+.link-route:hover{
+    text-decoration: none;
+    color: black;
+}
+
+

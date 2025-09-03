@@ -1,0 +1,23 @@
+.similar-jobs{
+    margin-top:  20px;
+    padding: 20px;
+    border-radius: 20px;
+    background: #e6e6e6;
+}
+
+.similr-jobs-display{
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width : 760px) {
+    .similr-jobs-display{
+        flex-direction: column;
+    }
+}
+
+@media (max-width : 1020px) {
+    .similr-jobs-display{
+        flex-direction: column;
+    }
+}

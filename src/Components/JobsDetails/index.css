@@ -1,0 +1,131 @@
+.main-body-cont{
+    width: 100%;
+    padding: 20px;
+}
+.jobsDetailsCont{
+    width: 100%;
+    padding: 30px 40px;
+    border-radius: 20px;
+    background: #e6e6e6;
+}   
+
+.skills-cont{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+
+.life-at-company-container{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.info-container{
+    width: 60%;
+    /* border: 2px solid rgb(60, 0, 255); */
+}
+
+.info-img-container{
+    width: 40%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.company-img{
+        width: 100%;
+}
+
+
+@media (min-width : 375px) {
+
+    .life-at-company-container{
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .info-container{
+    width: 100%;
+    /* border: 2px solid rgb(60, 0, 255); */
+}
+
+    .info-img-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid red; */
+    }
+
+    .company-img{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width : 768px) {
+
+    .life-at-company-container{
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .info-container{
+    width: 100%;
+    /* border: 2px solid rgb(60, 0, 255); */
+}
+
+    .info-img-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid red; */
+    }
+
+    .company-img{
+        width: 70%;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width : 1024px) {
+
+    .life-at-company-container{
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .info-container{
+    width: 60%;
+    /* border: 2px solid rgb(60, 0, 255); */
+}
+
+    .info-img-container{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid red; */
+    }
+
+    .company-img{
+        width: 70%;
+    }
+}

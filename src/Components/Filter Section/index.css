@@ -1,0 +1,117 @@
+.filter-sec{
+    width: 100%;
+    padding: 20px;
+}
+
+.profile-sec{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://assets.ccbp.in/frontend/react-js/profile-bg.png");
+    padding: 10px;
+    border-radius: 10px 25px;
+}
+
+
+/* .for_medium_device{
+    display: block;
+} */
+
+.jobtype-sec{ 
+    margin-top: 40px;
+}
+
+.jobtype-sec h2{ 
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.salary-sec{ 
+    margin-top: 25px;
+}
+
+.salary-sec h2{ 
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+li{
+    list-style: none;
+}
+
+label{
+    margin-left: 8px;
+}
+
+@media (max-width:800px) {
+
+    /* .profile-sec{
+        margin-bottom: 10px;
+    } */
+
+    .jobtype-sec{
+        margin-top: 15px;
+    }
+
+    .salary-sec{
+        margin-top: 15px;
+    }
+}
+
+@media (min-width : 768px) {
+
+    .for_medium_device{
+        width: 100%;
+        display: flex;
+    }
+
+    .profile-sec{
+        width: 40%;
+        padding: 20px;
+        margin-right: 20px;
+    }
+
+    .jobtype-sec{
+        width: 30%;
+        margin-left: 10px;
+    }
+
+    .jobtype-sec h2{
+        font-size: 20px;
+    }
+
+    .salary-sec{
+        width: 30%;
+        margin-left: 20px;
+        margin-right: 0;
+    }
+
+    .salary-sec h2{
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width : 1024px) {
+    .profile-sec{
+    width: 100%;
+    }
+
+    .for_medium_device{
+        width: 100%;
+        display: block;
+    }
+
+    .jobtype-sec{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .salary-sec{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    
+}
+
