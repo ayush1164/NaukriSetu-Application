@@ -38,7 +38,7 @@
   font-weight: 700;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 320px) {
   .footer-cont h4 {
     font-weight: 400;
     font-size: 20px;

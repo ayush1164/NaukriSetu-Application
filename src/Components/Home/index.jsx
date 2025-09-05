@@ -23,9 +23,9 @@ const Home = () => {
                     <br /><br />
 
                     <div>
-                        <Link to='/jobs'><button className='btn1'>Find Your Next Hire</button></Link>
+                        <Link to='/jobs'><button className='btn1'>Find Your Next Hire</button></Link> 
 
-                        <Link><button className='btn2'>Learn More &gt;</button></Link>
+                        <Link><button className='btn2' style={{marginTop : "10px"}}>Learn More &gt;</button></Link>
                     </div>
                     
                 </div>

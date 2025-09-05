@@ -58,7 +58,7 @@
   border-radius: 15px;
 }
 
-@media (min-width: 340px) {
+@media (min-width: 320px) {
   .my-form {
     width: 65%;
   }
