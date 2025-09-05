@@ -8,8 +8,6 @@ const Footer = () => {
 
                 <h4>Our Recruting by Numbers</h4>
 
-                <br />
-
                 <div className='info-cont'>
 
                         <div>

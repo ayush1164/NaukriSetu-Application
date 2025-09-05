@@ -120,27 +120,29 @@ const Jobs = () => {
                     <div className='displayAllJobs-section'>
 
                                     {
-                                        allvalues.jobsArr.length == 0 ?    <div className='jobs_not_found'>
+                                         
+                                    allvalues.isShowLoader ?    <div className=' d-flex justify-content-center'>
+                                                                    <div className="spinner-grow" role="status">
+                                                                        <span class="sr-only">Loading...</span>
+                                                                    </div>
+                                                                </div>
+
+                                    :    allvalues.jobsArr.length == 0 ?    <div className='jobs_not_found'>
                                                                                 <img src="https://assets.ccbp.in/frontend/react-js/no-jobs-img.png" width="400px" className='jobsNotFoundImg'/>
-
-                                                                                <h1>Jobs not Found</h1>
-                                                                                <p style={{fontSize : "13px"}}>We could not find any jobs. Try other filters</p>
+                                                                                    <h1>Jobs not Found</h1>
+                                                                                    <p style={{fontSize : "13px"}}>We could not find any jobs. Try other filters</p>
                                                                             </div>
 
-                                        :  
-                                                allvalues.isShowLoader ?    <div class="spinner-grow" role="status">
-                                                                                <span class="sr-only">Loading...</span>
-                                                                            </div>
+                                                                             : allvalues.isShowJobs ?    <ul>
+                                                                                                            {
+                                                                                                                    allvalues.jobsArr.map( each => <DisplayAllJobs key={each.id} jobs = {each}/>)
+                                                                                                            }
+                                                                                                        </ul>        
+                                                                                                                    
+                                                                                                                    : null
 
 
-                                                : allvalues.isShowJobs ?    <ul>
-                                                                                {
-                                                                                    allvalues.jobsArr.map( each => <DisplayAllJobs key={each.id} jobs = {each}/>)
-                                                                                }
-                                                                            </ul> 
-
-                                                                                
-                                                : null
+                                   
                                     }
 
                     </div>
