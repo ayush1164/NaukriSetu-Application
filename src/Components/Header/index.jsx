@@ -2,6 +2,7 @@ import { useRef } from 'react'
 import './index.css'
 import { Link } from 'react-router-dom'
 import Cookies from 'js-cookie'
+import { useNavigate } from 'react-router-dom'
 
 
 
@@ -54,7 +55,7 @@ const Header = () => {
 
                             <li style={{listStyle:"none"}}>
 
-                                    <Link to='/login' className='nav-links hideOnMobile'>
+                                    <Link to='/login' onClick={onDeleteJwt_Token} className='nav-links hideOnMobile'>
                                         <button>Logout</button>
                                     </Link>
 
@@ -80,8 +81,8 @@ const Header = () => {
                                     <Link to='/jobs' className='nav-links'>Jobs</Link>
                                 </li>
 
-                                <Link to='/login' className='nav-links'>
-                                    <button onClick={onDeleteJwt_Token}>Logout</button>
+                                <Link to='/login' onClick={onDeleteJwt_Token} className='nav-links'>
+                                    <button>Logout</button>
                                 </Link>
 
                             </ul>

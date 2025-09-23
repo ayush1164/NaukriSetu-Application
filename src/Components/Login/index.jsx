@@ -63,7 +63,7 @@ const Login = () => {
   return (
     <>
       <div className="main-cont">
-        <form className="my-form" onSubmit={onFetchDetails}>
+        <form className="my-form" onSubmit={onFetchDetails} autocomplete="off">
             <h1 style={{color:"white",fontFamily:"Segoe UI"}}>NaukriSetu</h1><br />
           <div>
             <label htmlFor="u_name">Name :</label>
