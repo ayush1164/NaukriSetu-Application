@@ -33,7 +33,7 @@ const Header = () => {
 
 
   return (
-    <>
+    <div style={{background : "#e0e0e0"}}>
 
         <nav className='my-navbar'>
 
@@ -91,7 +91,7 @@ const Header = () => {
 
         </nav>
 
-    </>
+    </div>
   )
 }
 

@@ -1,52 +1,85 @@
-# 🚀 NaukriSetu Application
-
-A full-stack web application built using **React + Spring Boot** that provides secure authentication, scalable backend APIs, and structured service/job management. The project follows clean architecture principles and modern full-stack development practices.
 
 ---
 
-## 📌 Tech Stack
+# 🚀 NaukriSetu Application
+
+<p align="center">
+  <img src="https://img.shields.io/badge/FullStack-Application-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Backend-SpringBoot-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Database-MySQL-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Auth-JWT-red?style=for-the-badge" />
+</p>
+
+<p align="center">
+  A modern full-stack web application built with <b>React + Spring Boot</b> featuring secure JWT authentication, scalable REST APIs, and clean architecture design.
+</p>
+
+---
+
+## 🌐 Live Demo
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge&logo=vercel)](https://naukri-setu-application.vercel.app)
+
+---
+
+## 📖 Overview
+
+NaukriSetu is a full-stack platform designed using modern web development practices. The application demonstrates secure authentication, structured backend architecture, and responsive frontend design.
+
+This project focuses on:
+
+* Clean architecture principles
+* Secure authentication flow
+* Scalable backend development
+* Real-world full-stack implementation
+
+---
+
+## 🧰 Tech Stack
 
 ### 🔹 Frontend
 
-- React.js
-- HTML5
-- CSS3
-- JavaScript
-- Bootstrap
+* React.js
+* HTML5
+* CSS3
+* JavaScript
+* Bootstrap
 
 ### 🔹 Backend
 
-- Java
-- Spring Boot
-- Spring Security
-- RESTful APIs
-- JWT Authentication
+* Java
+* Spring Boot
+* Spring Security
+* REST APIs
+* JWT Authentication
 
 ### 🔹 Database
 
-- MySQL
-- JPA / Hibernate
+* MySQL
+* JPA / Hibernate
 
 ### 🔹 Tools
 
-- Git & GitHub
-- Maven
-- Postman
+* Git
+* GitHub
+* Maven
+* Postman
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-✅ Secure JWT-based authentication
-✅ REST API architecture
-✅ Clean layered backend design (Controller → Service → Repository)
-✅ Responsive UI design
-✅ Database relational mapping
-✅ Production-ready backend structure
+🚀 JWT-based authentication system
+🔐 Secure login and API access
+⚡ RESTful API architecture
+📱 Responsive frontend UI
+🧱 Layered backend structure
+💾 Relational database design
 
 ---
 
-## 🔐 User Authentication (Demo Credentials)
+## 🔐 Authentication (Demo Credentials)
 
 ```
 username: rahul
@@ -58,7 +91,7 @@ password: praneetha@2021
 
 ---
 
-## 📥 Authentication API
+## 📡 Authentication API
 
 ### Description
 
@@ -66,7 +99,7 @@ Returns a response based on the credentials provided.
 
 ---
 
-### ✅ Sample Success Response
+### ✅ Success Response
 
 ```json
 {
@@ -76,7 +109,7 @@ Returns a response based on the credentials provided.
 
 ---
 
-### ❌ Sample Failure Response
+### ❌ Failure Response
 
 ```json
 {
@@ -87,7 +120,23 @@ Returns a response based on the credentials provided.
 
 ---
 
-## ⚙️ Installation & Setup
+## 🏗️ Architecture
+
+```
+Client (React)
+      ↓
+REST Controllers (Spring Boot)
+      ↓
+Service Layer (Business Logic)
+      ↓
+Repository Layer (JPA/Hibernate)
+      ↓
+MySQL Database
+```
+
+---
+
+## ⚙️ Local Setup
 
 ### 1️⃣ Clone Repository
 
@@ -98,10 +147,10 @@ cd NaukriSetu-Application
 
 ---
 
-### 2️⃣ Backend Setup
+### 2️⃣ Backend
 
-- Configure MySQL database
-- Update `application.properties`
+* Configure MySQL
+* Update application.properties
 
 ```bash
 mvn spring-boot:run
@@ -109,7 +158,7 @@ mvn spring-boot:run
 
 ---
 
-### 3️⃣ Frontend Setup
+### 3️⃣ Frontend
 
 ```bash
 npm install
@@ -118,11 +167,11 @@ npm start
 
 ---
 
-## 📡 API Testing
+## 🧪 API Testing
 
-1. Authenticate using demo credentials.
+1. Login using demo credentials.
 2. Copy JWT token from response.
-3. Add token to Authorization header:
+3. Add header:
 
 ```
 Authorization: Bearer <jwt_token>
@@ -130,25 +179,24 @@ Authorization: Bearer <jwt_token>
 
 ---
 
-## 🧱 Architecture Overview
+## 📈 Roadmap / Future Improvements
 
-- Controller Layer → API endpoints
-- Service Layer → Business logic
-- Repository Layer → Database operations
-- Security Config → JWT authentication flow
-
----
-
-## 📈 Future Enhancements
-
-- Role-based authorization
-- Admin dashboard
-- Advanced filtering & search
-- Cloud deployment
+* Role-based authorization
+* Admin dashboard
+* Cloud deployment
+* Advanced filtering
 
 ---
 
 ## 👨‍💻 Author
 
-**Aayush**
-Full Stack Developer | React + Spring Boot
+**Ayush**
+Full Stack Developer (React + Spring Boot)
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub.
+
+---

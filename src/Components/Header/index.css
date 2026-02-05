@@ -1,13 +1,14 @@
 .my-navbar{
-    width: 100%;
+    width: 80%;
     height: 8vh;
-    padding: 10px;
+    margin: auto;
+    padding: 10px 0px;
     background: #e0e0e0;
     display: flex;
     align-items: center;
     position: sticky;      /*for stickying in the top*/
     top: 0;
-    box-shadow: 0 5px 10px rgba(65, 65, 65, 0.266);
+    /* box-shadow: 0 5px 10px rgba(65, 65, 65, 0.266); */
 }
 
 .lg-navbar{
@@ -50,11 +51,16 @@
     padding: 8px;
     border: none;
     outline: none;
-    border-radius: 5px;
+    border-radius: 10%;
     background: rgb(86, 139, 139);
     color: white;
     font-weight: 500;
     cursor: pointer;
+    transition: 1s;
+}
+
+.my-navbar button:hover{
+    background: #76663fec;
 }
 
 .sideBar{
@@ -103,6 +109,11 @@
 }
 
 @media (max-width : 400px) {
+
+    .navbar{
+        max-width: 80%;
+    }
+
     .sideBar{
         width: 100%;
     }
