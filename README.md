@@ -1,5 +1,4 @@
 
----
 
 # 🚀 NaukriSetu Application
 
@@ -14,8 +13,6 @@
 <p align="center">
   A modern full-stack web application built with <b>React + Spring Boot</b> featuring secure JWT authentication, scalable REST APIs, and clean architecture design.
 </p>
-
----
 
 ## 🌐 Live Demo
 
