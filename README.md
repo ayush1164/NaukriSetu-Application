@@ -1,18 +1,17 @@
-
-
-# 🚀 NaukriSetu Application
+<h1 align="center">🚀 NaukriSetu Application</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/FullStack-Application-blue?style=for-the-badge&logo=react" />
-  <img src="https://img.shields.io/badge/Backend-SpringBoot-green?style=for-the-badge&logo=springboot" />
-  <img src="https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge&logo=react" />
-  <img src="https://img.shields.io/badge/Database-MySQL-orange?style=for-the-badge&logo=mysql" />
-  <img src="https://img.shields.io/badge/Auth-JWT-red?style=for-the-badge&logo=jsonwebtokens" />
+  <img src="https://img.shields.io/badge/SpringBoot-Backend-green?style=for-the-badge&logo=springboot" />
+  <img src="https://img.shields.io/badge/React-Frontend-blue?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/MySQL-Database-orange?style=for-the-badge&logo=mysql" />
+  <img src="https://img.shields.io/badge/JWT-Authentication-red?style=for-the-badge&logo=jsonwebtokens" />
 </p>
 
 <p align="center">
-  A modern full-stack web application built with <b>React + Spring Boot</b> featuring secure JWT authentication, scalable REST APIs, and clean architecture design.
+Modern Full Stack Application built using React + Spring Boot with JWT Authentication.
 </p>
+
 
 ## 🌐 Live Demo
 
