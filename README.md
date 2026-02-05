@@ -4,11 +4,11 @@
 # 🚀 NaukriSetu Application
 
 <p align="center">
-  <img src="https://img.shields.io/badge/FullStack-Application-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Backend-SpringBoot-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Database-MySQL-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Auth-JWT-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/FullStack-Application-blue?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/Backend-SpringBoot-green?style=for-the-badge&logo=springboot" />
+  <img src="https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/Database-MySQL-orange?style=for-the-badge&logo=mysql" />
+  <img src="https://img.shields.io/badge/Auth-JWT-red?style=for-the-badge&logo=jsonwebtokens" />
 </p>
 
 <p align="center">
